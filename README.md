@@ -3,9 +3,9 @@ It aims to detect potential short-term sell signals by fitting a linear model on
 
 Features:
   - ✅	Reads and prepares OHLCV data for multiple symbols.
-	- ✅Applies linear regression (statsmodels) on a rolling window.
-	- ✅	Projects lower confidence bounds forward.
-	- ✅	Detects crossover-based sell signals.
-	- ✅	Simulates profit/loss scenarios with visual plots.
-	- ✅	Avoids signal spamming with a configurable cooldown mechanism.
-	- ✅	Visualizes each signal and its profit/loss zone with Matplotlib.
+  - ✅Applies linear regression (statsmodels) on a rolling window.
+  - ✅	Projects lower confidence bounds forward.
+  - ✅	Detects crossover-based sell signals.
+  - ✅	Simulates profit/loss scenarios with visual plots.
+  - ✅	Avoids signal spamming with a configurable cooldown mechanism.
+  - ✅	Visualizes each signal and its profit/loss zone with Matplotlib.
