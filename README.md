@@ -10,7 +10,7 @@ Features:
   - ✅	Avoids signal spamming with a configurable cooldown mechanism.
   - ✅	Visualizes each signal and its profit/loss zone with Matplotlib.
 
-Updates
+Updates:
 
 During backtesting, I observed that in many cases where the slope of the regression line was steep, the price action tended to pull back sharply — often triggering the stop-loss before reaching the take-profit target. 
 To better understand this behavior, I analyzed the distribution of signal slopes in histogram.ipynb, comparing the frequency of profitable vs. losing trades across slope intervals.
